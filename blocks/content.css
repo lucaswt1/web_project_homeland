@@ -1,0 +1,154 @@
+.lead__title {
+  font-family: "Inter Black";
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0;
+  text-align: center;
+  max-width: 720px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+
+.lead__description {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0;
+  text-align: center;
+  max-width: 720px;
+  min-height: 72px;
+  margin: 32px auto 64px;
+}
+
+.lead__image {
+  display: flex;
+  justify-content: center;
+}
+
+.lead__image-inside {
+  max-width: 984px;
+  width: 100%;
+  height: auto;
+}
+
+.intro {
+  max-width: 830px;
+  margin-top: 92px;
+  margin-left: 148px;
+  margin-right: 148px;
+}
+
+.intro__title {
+  font-family: "Inter Black";
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.intro__quote {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0;
+  margin: 40px 0 10px;
+  max-width: 738px;
+}
+
+.intro__quote-person {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0;
+  text-align: right;
+  max-width: 732px;
+}
+
+.intro__description {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26.08px;
+  letter-spacing: 0;
+  margin: 32px 0 92px;
+  max-width: 722px;
+}
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    font-size: 75px;
+    line-height: 79px;
+    max-width: 530px;
+    min-height: 158px;
+  }
+
+  .lead__description {
+    margin: 25px auto 30px;
+  }
+
+  .intro {
+    max-width: 720px;
+    margin: 90px auto 0;
+    padding: 0 24px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+  .intro__quote {
+    margin: 50px 0 26px;
+  }
+
+  .intro__description {
+    margin-bottom: 88px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 544px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 228px;
+    min-height: 88px;
+  }
+
+  .lead__description {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 16px auto 40px;
+    max-width: 288px;
+    min-height: 40px;
+  }
+
+  .intro {
+    max-width: 288px;
+    margin: 64px auto 0;
+    padding: 0 16px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__quote {
+    line-height: 30px;
+    margin: 40px auto 10px;
+  }
+
+  .intro__quote-person {
+    margin: 0;
+  }
+
+  .intro__description {
+    margin: 32px auto 64px;
+  }
+}
