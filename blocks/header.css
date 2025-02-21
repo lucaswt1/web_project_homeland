@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: center;
-  margin-top: 34px;
+  padding-top: 34px;
 }
 
 .header__logo {
@@ -11,13 +11,13 @@
 
 @media screen and (max-width: 1024px) {
   .header {
-    margin-top: 30px;
+    padding-top: 30px;
   }
 }
 
 @media screen and (max-width: 544px) {
   .header {
-    margin-top: 20px;
+    padding-top: 20px;
   }
 
   .header__logo {
