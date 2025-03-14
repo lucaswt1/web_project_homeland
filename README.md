@@ -6,7 +6,7 @@
 
 2. Uma descrição do projeto e sua funcionalidade
 
-- study of a new responsive web page from scratch
+- study of a new responsive web page from scratch and grid layout.
 
 3. Uma descrição das tecnologias e técnicas utilizadas
 
